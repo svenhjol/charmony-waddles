@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "charmony-waddles",
+  "version": "${mod_version}",
+
+  "name": "Waddles (Charmony remix)",
+  "description": "Waddles adds somewhat realistic Adélie penguins that waddle. This is an adaptation of the original Forge mod by Girafi.",
+
+  "authors": [
+    "svenhjol"
+  ],
+  "icon": "assets/charmony-waddles/textures/gui/sprites/icon.png",
+  "license": "MIT",
+  "environment": "*",
+  "accessWidener": "charmony-waddles.accesswidener",
+
+  "entrypoints": {
+    "main": [
+      "svenhjol.charmony.waddles.common.CommonInitializer"
+    ],
+    "client": [
+      "svenhjol.charmony.waddles.client.ClientInitializer"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*",
+    "java": ">=21",
+    "fabric-api": "*",
+    "charmony": "${charmony_version}",
+    "charmony-api": "${api_version}"
+  },
+
+  "contact": {
+    "homepage": "https://charmony.work",
+    "sources": "https://github.com/svenhjol/${mod_id}"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Charmony Waddles resources",
+    "pack_format": ${pack_version}
+  }
+}
