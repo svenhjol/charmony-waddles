@@ -2,7 +2,6 @@
   "values": [
     "#c:is_snowy",
     "#c:is_icy",
-    "minecraft:stony_shore",
-    "minecraft:frozen_ocean"
+    "#c:is_aquatic_icy"
   ]
 }
