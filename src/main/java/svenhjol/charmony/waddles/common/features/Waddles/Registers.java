@@ -31,7 +31,7 @@ public final class Registers extends Setup<Waddles> {
         deathSound = registry.sound("adelie.death");
         hurtSound = registry.sound("adelie.hurt");
 
-        penguin = registry.entity("adelie_penguin", key -> () -> EntityType.Builder
+        penguin = registry.entity("adelie_penguin", () -> EntityType.Builder
             .of(Penguin::new, MobCategory.CREATURE)
             .sized(0.4f, 0.95f)
             .clientTrackingRange(10)
