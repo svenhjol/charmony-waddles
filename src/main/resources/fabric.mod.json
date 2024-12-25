@@ -3,37 +3,49 @@
   "id": "charmony-waddles",
   "version": "${mod_version}",
 
-  "name": "Waddles (Charmony remix)",
-  "description": "Waddles adds somewhat realistic Adélie penguins that waddle. This is an adaptation of the original Forge mod by GirafiStudios.",
+  "name": "Waddles (for Charmony)",
+  "description": "Waddles adds somewhat realistic Adélie penguins that waddle. This is a port of the original Forge mod by GirafiStudios.",
 
   "authors": [
+    "Girafi",
+    "Wiiv",
     "svenhjol"
   ],
   "icon": "assets/charmony-waddles/textures/gui/sprites/icon.png",
-  "license": "MIT",
+  "license": "All Rights Reserved",
   "environment": "*",
   "accessWidener": "charmony-waddles.accesswidener",
-
   "entrypoints": {
     "main": [
-      "svenhjol.charmony.waddles.common.CommonInitializer"
+        "svenhjol.charmony.waddles.common.CommonInitializer"
     ],
     "client": [
-      "svenhjol.charmony.waddles.client.ClientInitializer"
+        "svenhjol.charmony.waddles.client.ClientInitializer"
     ]
   },
+
+  "mixins": [],
 
   "depends": {
     "fabricloader": ">=${loader_version}",
     "minecraft": "*",
-    "java": ">=21",
+    "java": ">=${java_version}",
     "fabric-api": "*",
-    "charmony": "${charmony_version}",
-    "charmony-api": "${api_version}"
+    "charmony": ">=${charmony_version}",
+    "charmony-api": ">=${api_version}"
   },
 
   "contact": {
-    "homepage": "https://charmony.work",
+    "homepage": "${homepage_link}",
     "sources": "https://github.com/svenhjol/${mod_id}"
+  },
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "${discord_link}"
+      },
+      "update_checker": true
+    }
   }
 }
