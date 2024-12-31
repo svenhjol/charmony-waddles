@@ -21,6 +21,9 @@
     ],
     "client": [
         "svenhjol.charmony.waddles.client.ClientInitializer"
+    ],
+    "modmenu": [
+        "svenhjol.charmony.waddles.integration.ModMenuPlugin"
     ]
   },
 
