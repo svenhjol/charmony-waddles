@@ -97,7 +97,7 @@ public class Penguin extends Animal {
 
     @Override
     public void travel(Vec3 vec3) {
-        if (this.isControlledByLocalInstance() && this.isInWater()) {
+        if (this.isInWater()) {
             this.moveRelative(this.getSpeed(), vec3);
             this.move(MoverType.SELF, this.getDeltaMovement());
             this.setDeltaMovement(this.getDeltaMovement().scale(0.9));
