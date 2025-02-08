@@ -6,7 +6,6 @@ import svenhjol.charmony.core.annotations.FeatureDefinition;
 import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.core.base.SidedFeature;
 import svenhjol.charmony.core.enums.Side;
-import svenhjol.charmony.waddles.WaddlesMod;
 
 @FeatureDefinition(
     side = Side.Common,
@@ -55,7 +54,7 @@ public final class Waddles extends SidedFeature {
     }
 
     public static Waddles feature() {
-        return WaddlesMod.instance().sidedFeature(Waddles.class);
+        return Mod.getSidedFeature(Waddles.class);
     }
 
     public boolean dropFish() {
