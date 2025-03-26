@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.0
+
+- Update for Minecraft 1.21.5.
+
 ## 1.1.0
 
 - Refactor for Charmony 1.19.0.
