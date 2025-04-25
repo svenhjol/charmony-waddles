@@ -7,7 +7,7 @@ This is a port of [Waddles](https://github.com/GirafiStudios/Waddles) by GirafiS
 Clone the project and run the gradle build task. A game jar file and source jar file will be output to `build/libs`. 
 Charmony core and API will be automatically bundled into the game jar so there are no dependencies other than Fabric API.
 
-Targets **Minecraft 1.21.4** only.
+Targets **Minecraft 1.21.5** only.
 
 ## Original readme
 

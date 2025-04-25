@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.1
+
+- Update icon.
+
 ## 1.4.0
 
 - Update for Minecraft 1.21.5.
