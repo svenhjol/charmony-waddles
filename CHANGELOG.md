@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.0
+
+- Update for Charmony and API.
+
 ## 1.4.1
 
 - Update icon.

@@ -1,7 +1,7 @@
 package svenhjol.charmony.waddles.client;
 
 import net.fabricmc.api.ClientModInitializer;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 import svenhjol.charmony.waddles.WaddlesMod;
 import svenhjol.charmony.waddles.client.features.Waddles;
 

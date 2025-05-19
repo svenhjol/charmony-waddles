@@ -1,16 +1,17 @@
 package svenhjol.charmony.waddles.common.features.Waddles;
 
 import net.minecraft.util.Mth;
-import svenhjol.charmony.core.annotations.Configurable;
-import svenhjol.charmony.core.annotations.FeatureDefinition;
+import svenhjol.charmony.api.core.Configurable;
+import svenhjol.charmony.api.core.FeatureDefinition;
 import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.core.base.SidedFeature;
-import svenhjol.charmony.core.enums.Side;
+import svenhjol.charmony.api.core.Side;
 
 @FeatureDefinition(
     side = Side.Common,
     description = "Waddles adds somewhat realistic Adélie penguins that waddle."
 )
+@SuppressWarnings({"FieldMayBeFinal", "FieldCanBeLocal"})
 public final class Waddles extends SidedFeature {
     public final Registers registers;
 
