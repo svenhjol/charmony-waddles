@@ -6,8 +6,8 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Items;
+import svenhjol.charmony.core.Charmony;
 import svenhjol.charmony.core.base.Setup;
-import svenhjol.charmony.waddles.WaddlesMod;
 
 public final class Registers extends Setup<Waddles> {
     public final ModelLayerLocation adultModel;
@@ -16,8 +16,8 @@ public final class Registers extends Setup<Waddles> {
     public Registers(Waddles feature) {
         super(feature);
 
-        adultModel = new ModelLayerLocation(WaddlesMod.id("penguin"), "penguin");
-        babyModel = new ModelLayerLocation(WaddlesMod.id("penguin_baby"), "penguin_baby");
+        adultModel = new ModelLayerLocation(Charmony.id("penguin"), "penguin");
+        babyModel = new ModelLayerLocation(Charmony.id("penguin_baby"), "penguin_baby");
 
         var common = feature.common.get();
         if (common != null) {

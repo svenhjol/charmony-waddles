@@ -1,0 +1,10 @@
+{
+  "entity.charmony.adelie_penguin": "Pingwin",
+  "item.charmony.adelie_penguin_spawn_egg": "Jajo przyzywające pingwina",
+  "subtitles.charmony.adelie.ambient": "Pingwin skrzeczy",
+  "subtitles.charmony.adelie.baby.ambient": "Mały pingwin piszczy",
+  "subtitles.charmony.adelie.death": "Pingwin umiera",
+  "subtitles.charmony.adelie.hurt": "Pingwin cierpi",
+  "waddles:config.category.general.tooltip": "Ogólna konfiguracja ustawien dla Waddles",
+  "waddles:config.category.spawnchances.tooltip": "Konfigurowalne szanse odradzania się pingwinów"
+}

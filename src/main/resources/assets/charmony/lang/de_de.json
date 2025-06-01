@@ -1,0 +1,10 @@
+{
+  "entity.charmony.adelie_penguin": "Adeliepinguin",
+  "item.charmony.adelie_penguin_spawn_egg": "Adeliepinguin Spawn Egg",
+  "subtitles.charmony.adelie.ambient": "Adeliepinguin kreischt",
+  "subtitles.charmony.adelie.baby.ambient": "Adeliepinguinjungvogel kreischt",
+  "subtitles.charmony.adelie.death": "Adeliepinguin stirbt",
+  "subtitles.charmony.adelie.hurt": "Adeliepinguin nimmt Schaden",
+  "waddles:config.category.general.tooltip": "Allgemeine Konfigurationsoptionen für Waddles",
+  "waddles:config.category.spawnchances.tooltip": "Konfigurierbare Spawnwahrscheinlichkeiten für Pinguine"
+}

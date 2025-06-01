@@ -1,0 +1,10 @@
+{
+  "entity.charmony.adelie_penguin": "阿德利企鵝",
+  "item.charmony.adelie_penguin_spawn_egg": "阿德利企鵝生怪蛋",
+  "subtitles.charmony.adelie.ambient": "阿德利企鵝：吱吱聲",
+  "subtitles.charmony.adelie.baby.ambient": "幼年阿德利企鵝：吱吱聲",
+  "subtitles.charmony.adelie.death": "阿德利企鵝：一命鳴呼",
+  "subtitles.charmony.adelie.hurt": "阿德利企鵝：受到傷害",
+  "waddles:config.category.general.tooltip": "基礎設置",
+  "waddles:config.category.spawnchances.tooltip": "生成概率設置"
+}

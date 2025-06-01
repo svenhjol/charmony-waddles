@@ -6,7 +6,7 @@ import net.minecraft.client.renderer.entity.AgeableMobRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Pose;
-import svenhjol.charmony.waddles.WaddlesMod;
+import svenhjol.charmony.core.Charmony;
 import svenhjol.charmony.waddles.common.features.Waddles.Penguin;
 
 @SuppressWarnings("deprecation")
@@ -35,6 +35,6 @@ public class PenguinRenderer extends AgeableMobRenderer<Penguin, PenguinModelRen
     @Override
     public ResourceLocation getTextureLocation(PenguinModelRenderState state) {
         var fileName = state.isBaby ? "adelie_child" : "adelie";
-        return WaddlesMod.id("textures/entity/penguin/" + fileName + ".png");
+        return Charmony.id("textures/entity/penguin/" + fileName + ".png");
     }
 }

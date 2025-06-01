@@ -1,0 +1,10 @@
+{
+  "entity.charmony.adelie_penguin": "Пингвин Адели",
+  "item.charmony.adelie_penguin_spawn_egg": "Яйцо призыва пингвина Адели",
+  "subtitles.charmony.adelie.ambient": "Пингвин Адели крякает",
+  "subtitles.charmony.adelie.baby.ambient": "Детёныш пингвина Адели крякает",
+  "subtitles.charmony.adelie.death": "Пингвин Адели погибает",
+  "subtitles.charmony.adelie.hurt": "Пингвин Адели получает урон",
+  "waddles:config.category.general.tooltip": "Общая настройка для Waddles",
+  "waddles:config.category.spawnchances.tooltip": "Настраиваемый шанс спавна пингвинов"
+}

@@ -1,9 +1,8 @@
 package svenhjol.charmony.waddles;
 
-import net.minecraft.resources.ResourceLocation;
 import svenhjol.charmony.api.core.ModDefinition;
-import svenhjol.charmony.core.base.Mod;
 import svenhjol.charmony.api.core.Side;
+import svenhjol.charmony.core.base.Mod;
 
 @ModDefinition(
     id = WaddlesMod.ID, name = "Waddles", description = "Port of Waddles by GirafiStudios", sides = {Side.Client, Side.Common})
@@ -16,9 +15,5 @@ public class WaddlesMod extends Mod {
             instance = new WaddlesMod();
         }
         return instance;
-    }
-
-    public static ResourceLocation id(String path) {
-        return ResourceLocation.fromNamespaceAndPath(ID, path);
     }
 }
