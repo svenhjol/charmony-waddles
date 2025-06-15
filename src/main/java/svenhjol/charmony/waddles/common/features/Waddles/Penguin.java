@@ -61,21 +61,21 @@ public class Penguin extends Animal {
     protected void registerGoals() {
         Predicate<ItemStack> ingredient = stack -> stack.is(Tags.PENGUIN_LOVED);
         this.goalSelector.addGoal(1, new EntityAIExtinguishFire());
-        this.goalSelector.addGoal(2, new PanicGoal(this, 1.5D));
-        this.goalSelector.addGoal(3, new BreedGoal(this, 0.8D));
-        this.goalSelector.addGoal(4, new AvoidEntityGoal<>(this, PolarBear.class, 6.0F, 2.0D, 2.2D));
-        this.goalSelector.addGoal(5, new TemptGoal(this, 1.0D, ingredient, false));
-        this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 6.0F));
-        this.goalSelector.addGoal(7, new PenguinGoals.PenguinTravelGoal(this, 1.0D));
-        this.goalSelector.addGoal(9, new FollowParentGoal(this, 1.1D));
+        this.goalSelector.addGoal(2, new PanicGoal(this, 1.5d));
+        this.goalSelector.addGoal(3, new BreedGoal(this, 0.8d));
+        this.goalSelector.addGoal(4, new AvoidEntityGoal<>(this, PolarBear.class, 6.0f, 2.0d, 2.2d));
+        this.goalSelector.addGoal(5, new TemptGoal(this, 1.0d, ingredient, false));
+        this.goalSelector.addGoal(6, new LookAtPlayerGoal(this, Player.class, 6.0f));
+        this.goalSelector.addGoal(7, new PenguinGoals.PenguinTravelGoal(this, 1.0d));
+        this.goalSelector.addGoal(9, new FollowParentGoal(this, 1.1d));
         this.goalSelector.addGoal(10, new RandomLookAroundGoal(this));
         this.goalSelector.addGoal(10, new PenguinGoals.PenguinRandomStrollGoal(this, 1.0d));
     }
 
     public static AttributeSupplier.Builder createAttributes() {
         return Mob.createMobAttributes()
-            .add(Attributes.MAX_HEALTH, 8.0D)
-            .add(Attributes.MOVEMENT_SPEED, 0.16D)
+            .add(Attributes.MAX_HEALTH, 8.0d)
+            .add(Attributes.MOVEMENT_SPEED, 0.16d)
             .add(Attributes.STEP_HEIGHT, 1.5)
             .add(Attributes.TEMPT_RANGE, 4.0);
     }
@@ -238,7 +238,7 @@ public class Penguin extends Animal {
 
     private class EntityAIExtinguishFire extends PanicGoal {
         EntityAIExtinguishFire() {
-            super(Penguin.this, 2.0D);
+            super(Penguin.this, 2.0d);
         }
 
         @Override

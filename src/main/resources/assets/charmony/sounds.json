@@ -9,6 +9,7 @@
             "charmony:adelie_ambient6",
             "charmony:adelie_ambient7"
         ],
+        "volume": "0.5",
         "subtitle": "subtitles.charmony.adelie.ambient"
     },
     "adelie.baby.ambient": {
@@ -17,18 +18,21 @@
             "charmony:adelie_baby_ambient2",
             "charmony:adelie_baby_ambient3"
         ],
+        "volume": "0.75",
         "subtitle": "subtitles.charmony.adelie.baby.ambient"
     },
     "adelie.death": {
         "sounds": [
             "charmony:adelie_death"
         ],
+        "volume": "0.5",
         "subtitle": "subtitles.charmony.adelie.death"
     },
     "adelie.hurt": {
         "sounds": [
             "charmony:adelie_hurt"
         ],
+        "volume": "0.5",
         "subtitle": "subtitles.charmony.adelie.hurt"
     }
 }

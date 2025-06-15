@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.6.1
+
+- Reduce ambient volume by 50%.
+
 ## 1.6.0
 
 - Update for 1.21.6.
